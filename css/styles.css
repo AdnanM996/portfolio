@@ -26,3 +26,8 @@ body {
   font-weight: 300;
   color: #fff;
   line-height: 120%; }
+
+.header {
+  position: absolute;
+  top: 0%;
+  left: 0%; }
