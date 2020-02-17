@@ -1,3 +1,7 @@
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
 @import 'base/reset';
 @import 'base/typography';
 
@@ -15,7 +19,3 @@
 @import 'pages/home';
 @import 'pages/skills';
 @import 'pages/work';
-
-@import 'utilities/functions';
-@import 'utilities/mixins';
-@import 'utilities/variables';

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: content-box; }
+  *::after, *::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    position: absolute; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background-color: #1a1a1a; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+  line-height: 120%; }

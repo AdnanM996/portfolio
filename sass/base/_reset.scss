@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+
+    &::after,
+    &::before {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: content-box;
+        position: absolute;
+    }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: $color-black;
+}

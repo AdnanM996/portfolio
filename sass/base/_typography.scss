@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: $color-white;
+    line-height: 120%;
+}
