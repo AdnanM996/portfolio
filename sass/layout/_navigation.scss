@@ -1,0 +1,41 @@
+.nav {
+    & ul {
+        list-style: none;
+        display: flex;
+    }
+
+    & li {
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            bottom: 0%;
+            left: 0%;
+            height: .2rem;
+            width: 100%;
+            background-color: blue;
+            transform: translateX(-100%);
+            transition: $transition;
+        }
+
+        &:hover::after {
+            transform: translateX(0%);
+        }
+
+        &:not(:last-child) {
+            margin-right: 2.5rem;
+        }
+
+    }
+
+    & a {
+        display: block;
+        color: rgba($color-white, .5);
+        transition: $transition;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+}

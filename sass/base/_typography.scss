@@ -12,3 +12,22 @@ body {
     color: $color-white;
     line-height: 120%;
 }
+
+a {
+    text-decoration: none;
+    color: $color-white;
+}
+
+.header {
+    &__logo {
+        font-size: 2.6rem;
+    }
+}
+
+.nav {
+    & a {
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        line-height: 160%;
+    }
+}

@@ -20,3 +20,11 @@ html, body {
 body {
     background-color: $color-black;
 }
+
+.wrapper {
+    width: 120rem;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

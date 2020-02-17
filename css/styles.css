@@ -17,6 +17,13 @@ html, body {
 body {
   background-color: #1a1a1a; }
 
+.wrapper {
+  width: 120rem;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 html {
   font-size: 62.5%; }
 
@@ -27,7 +34,63 @@ body {
   color: #fff;
   line-height: 120%; }
 
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.header__logo {
+  font-size: 2.6rem; }
+
+.nav a {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  line-height: 160%; }
+
 .header {
   position: absolute;
   top: 0%;
-  left: 0%; }
+  left: 0%;
+  width: 100%;
+  z-index: 2;
+  padding: 5rem 0rem; }
+  .header__logo {
+    display: inline-block; }
+  .header__menu {
+    display: none;
+    height: 3.5rem;
+    width: 5rem;
+    cursor: pointer; }
+    .header__menu__line {
+      height: .35rem;
+      width: 100%;
+      background-color: #fff; }
+      .header__menu__line:not(:last-child) {
+        margin-bottom: 1rem; }
+
+.nav ul {
+  list-style: none;
+  display: flex; }
+
+.nav li {
+  position: relative;
+  overflow: hidden; }
+  .nav li::after {
+    content: '';
+    bottom: 0%;
+    left: 0%;
+    height: .2rem;
+    width: 100%;
+    background-color: blue;
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out; }
+  .nav li:hover::after {
+    transform: translateX(0%); }
+  .nav li:not(:last-child) {
+    margin-right: 2.5rem; }
+
+.nav a {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out; }
+  .nav a:hover {
+    color: #fff; }
