@@ -1,5 +1,11 @@
 .work {
     padding: $padding-medium;
+    position: relative;
+
+    &::after {
+        content: 'work';
+        @include sectionText;
+    }
 
     & .wrapper {
         flex-direction: column;

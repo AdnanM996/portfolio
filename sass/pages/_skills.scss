@@ -1,0 +1,47 @@
+.skills {
+    padding: $padding-medium;
+    position: relative;
+
+    &::after {
+        content: 'skills';
+        @include sectionText;
+
+    }
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    &__container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 5rem auto;
+        position: relative;
+        padding: $padding-small;
+
+        &::after {
+            content: '';
+            top: 0%;
+            left: 0%;
+            height: .3rem;
+            width: 100%;
+            background-color: $color-white;
+        }
+    }
+
+    & ul {
+        list-style: none;
+    }
+
+    & li {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+}
