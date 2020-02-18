@@ -6,9 +6,24 @@
     gap: 5rem;
     width: 100%;
     margin: 5rem 0rem;
+    overflow: hidden;
 
     &__items {
         position: relative;
+
+        & .cta {
+            position: absolute;
+            top: 50%;
+            right: -25%;
+            transform: translate(-25%, -50%);
+        }
+
+        & .cta--right {
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -25%);
+        }
 
         & img {
             max-width: 100%;
