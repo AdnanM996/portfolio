@@ -31,3 +31,38 @@ a {
         line-height: 160%;
     }
 }
+
+.hero {
+    &__text--big {
+        font-size: 7.6rem;
+        display: inline-block;
+        font-family: $font-monospace;
+        line-height: 160%;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    &__text--small {
+        font-size: 2.6rem;
+        color: $color-white;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+
+    &__social--link {
+        color: rgba($color-white, .6);
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: $font-monospace;
+        transition: $transition;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color-white;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+}

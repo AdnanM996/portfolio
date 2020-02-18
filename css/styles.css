@@ -46,6 +46,32 @@ a {
   text-transform: capitalize;
   line-height: 160%; }
 
+.hero__text--big {
+  font-size: 7.6rem;
+  display: inline-block;
+  font-family: "Inconsolata", monospace;
+  line-height: 160%;
+  font-weight: 700;
+  margin-bottom: 2rem; }
+
+.hero__text--small {
+  font-size: 2.6rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 300; }
+
+.hero__social--link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Inconsolata", monospace;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase; }
+  .hero__social--link:hover {
+    color: #fff; }
+  .hero__social--link:not(:last-child) {
+    margin-bottom: 2.5rem; }
+
 .header {
   position: absolute;
   top: 0%;
@@ -94,3 +120,15 @@ a {
   transition: all 0.3s ease-in-out; }
   .nav a:hover {
     color: #fff; }
+
+.hero {
+  height: 100%;
+  width: 100%; }
+  .hero .wrapper {
+    height: 100%;
+    align-items: center; }
+  .hero__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; }
