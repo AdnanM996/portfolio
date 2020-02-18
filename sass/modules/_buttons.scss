@@ -8,6 +8,30 @@
     font-weight: 400;
     font-family: $font-monospace;
     transition: $transition;
+    position: relative;
+    overflow: hidden;
+    color: $color-black;
+
+    &::after {
+        content: '';
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        background-color: $color-blue;
+        transform: translateY(100%);
+        z-index: -1;
+        transition: $transition;
+    }
+
+    &:hover {
+        color: $color-white;
+        box-shadow: 2px 2px 15px 5px rgba($color-blue, .4);
+    }
+
+    &:hover::after {
+        transform: translateY(0%);
+    }
 
     &--right {
         @extend .cta;

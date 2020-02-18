@@ -8,6 +8,12 @@
     margin: 5rem 0rem;
     overflow: hidden;
 
+    @media only screen and (max-width: $media-small) {
+        grid-template-columns: repeat(6, 70%);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 5rem;
+    }
+
     &__items {
         position: relative;
 
@@ -16,12 +22,24 @@
             top: 50%;
             right: -25%;
             transform: translate(-25%, -50%);
+
+            @media only screen and (max-width: $media-small) {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
 
         & .cta--right {
             position: absolute;
             right: 0%;
             transform: translate(-250%, -50%);
+
+            @media only screen and (max-width: $media-small) {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
 
         & img {
@@ -34,31 +52,62 @@
         &--1 {
             grid-column: 1 / 2;
             grid-row: 1 / 3;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+            
         }
 
         &--2 {
             grid-column: 2 / 3;
             grid-row: 2 / 4;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
         }
 
         &--3 {
             grid-column: 1 / 2;
             grid-row: 3 / 5;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 3 / 4;
+                grid-row: 1 / 2;
+            }
         }
 
         &--4 {
             grid-column: 2 / 3;
             grid-row: 4 / 6;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 4 / 5;
+                grid-row: 1 / 2;
+            }
         }
 
         &--5 {
             grid-column: 1 / 2;
             grid-row: 5 / 7;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 5 / 6;
+                grid-row: 1 / 2;
+            }
         }
 
         &--6 {
             grid-column: 2 / 3;
             grid-row: 6 / 8;
+
+            @media only screen and (max-width: $media-small) {
+                grid-column: 6 / 7;
+                grid-row: 1 / 2;
+            }
         }
     }
 }

@@ -1,4 +1,9 @@
 .nav {
+
+    @media only screen and (max-width: $media-small) {
+        display: none;
+    }
+    
     & ul {
         list-style: none;
         display: flex;
@@ -14,8 +19,8 @@
             left: 0%;
             height: .2rem;
             width: 100%;
-            background-color: blue;
-            transform: translateX(-100%);
+            background-color: $color-blue;
+            transform: translateX(-105%);
             transition: $transition;
         }
 

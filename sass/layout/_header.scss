@@ -6,6 +6,13 @@
     z-index: 2;
     padding: $padding-small;
 
+    & .wrapper {
+        @media only screen and (max-width: $media-small) {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
     &__logo {
         display: inline-block;
     }
@@ -15,6 +22,10 @@
         height: 3.5rem;
         width: 5rem;
         cursor: pointer;
+
+        @media only screen and (max-width: $media-small) {
+            display: inline-block;
+        }
 
         &__line {
             height: .35rem;
