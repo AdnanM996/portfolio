@@ -1,0 +1,8 @@
+.work {
+    padding: $padding-medium;
+
+    & .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
