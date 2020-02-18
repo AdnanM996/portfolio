@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 50rem);
     grid-template-rows: repet(6, 21.25rem);
     justify-content: space-between;
-    gap: 5rem;
+    gap: 10rem;
     width: 100%;
     margin: 5rem 0rem;
     overflow: hidden;
@@ -20,9 +20,8 @@
 
         & .cta--right {
             position: absolute;
-            top: 50%;
-            left: 25%;
-            transform: translate(-50%, -25%);
+            right: 0%;
+            transform: translate(-250%, -50%);
         }
 
         & img {
