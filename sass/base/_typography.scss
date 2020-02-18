@@ -40,6 +40,31 @@ a {
         line-height: 160%;
         font-weight: 700;
         margin-bottom: 2rem;
+        position: relative;
+        width: 998px;
+        user-select: none;
+        
+        &::after {
+            content: attr(data-text);
+            left: .2rem;
+            text-shadow: -.3rem 0 blue;
+            top: 0rem;
+            color: $color-white;
+            background-color: $color-black;
+            overflow: hidden;
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+
+        &::before {
+            content: attr(data-text);
+            left: -.2rem;
+            text-shadow: .3rem 0 green;
+            top: 0rem;
+            color: $color-white;
+            background-color: $color-black;
+            overflow: hidden;
+            animation: noise-anim-2 15s infinite linear alternate-reverse;
+        }
     }
 
     &__text--small {

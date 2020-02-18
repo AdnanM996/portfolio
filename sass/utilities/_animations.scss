@@ -1,0 +1,22 @@
+//Glitch animation
+@keyframes noise-anim {
+    $steps: 20;
+    @for $i from 0 through $steps {
+      #{percentage($i*(1/$steps))} {
+        $top: random(100);
+        $bottom: random(101 - $top);
+        clip-path: inset(#{$top}% 0 #{$bottom}%  0);
+      }
+    }
+}
+
+@keyframes noise-anim-2 {
+    $steps: 20;
+    @for $i from 0 through $steps {
+      #{percentage($i*(1/$steps))} {
+        $top: random(100);
+        $bottom: random(101 - $top);
+        clip-path: inset(#{$top}% 0 #{$bottom}%  0);
+      }
+    }
+}
