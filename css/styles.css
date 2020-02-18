@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
 @keyframes noise-anim {
   0% {
-    clip-path: inset(62% 0 18% 0); }
+    clip-path: inset(36% 0 9% 0); }
   5% {
-    clip-path: inset(35% 0 60% 0); }
+    clip-path: inset(67% 0 14% 0); }
   10% {
-    clip-path: inset(73% 0 6% 0); }
+    clip-path: inset(78% 0 1% 0); }
   15% {
-    clip-path: inset(51% 0 32% 0); }
+    clip-path: inset(77% 0 20% 0); }
   20% {
-    clip-path: inset(4% 0 9% 0); }
+    clip-path: inset(65% 0 27% 0); }
   25% {
-    clip-path: inset(14% 0 78% 0); }
+    clip-path: inset(97% 0 1% 0); }
   30% {
-    clip-path: inset(81% 0 7% 0); }
+    clip-path: inset(51% 0 31% 0); }
   35% {
-    clip-path: inset(74% 0 26% 0); }
+    clip-path: inset(31% 0 6% 0); }
   40% {
-    clip-path: inset(9% 0 87% 0); }
+    clip-path: inset(65% 0 23% 0); }
   45% {
-    clip-path: inset(90% 0 1% 0); }
+    clip-path: inset(51% 0 8% 0); }
   50% {
-    clip-path: inset(48% 0 46% 0); }
+    clip-path: inset(24% 0 61% 0); }
   55% {
-    clip-path: inset(88% 0 6% 0); }
+    clip-path: inset(97% 0 2% 0); }
   60% {
-    clip-path: inset(23% 0 49% 0); }
+    clip-path: inset(10% 0 49% 0); }
   65% {
-    clip-path: inset(30% 0 49% 0); }
+    clip-path: inset(24% 0 73% 0); }
   70% {
-    clip-path: inset(12% 0 22% 0); }
+    clip-path: inset(90% 0 4% 0); }
   75% {
-    clip-path: inset(42% 0 25% 0); }
+    clip-path: inset(34% 0 27% 0); }
   80% {
-    clip-path: inset(32% 0 59% 0); }
+    clip-path: inset(52% 0 10% 0); }
   85% {
-    clip-path: inset(86% 0 7% 0); }
+    clip-path: inset(48% 0 31% 0); }
   90% {
-    clip-path: inset(92% 0 2% 0); }
+    clip-path: inset(67% 0 20% 0); }
   95% {
-    clip-path: inset(84% 0 3% 0); }
+    clip-path: inset(28% 0 50% 0); }
   100% {
-    clip-path: inset(61% 0 5% 0); } }
+    clip-path: inset(8% 0 86% 0); } }
 
 @keyframes noise-anim-2 {
   0% {
-    clip-path: inset(71% 0 17% 0); }
+    clip-path: inset(91% 0 5% 0); }
   5% {
-    clip-path: inset(73% 0 14% 0); }
+    clip-path: inset(39% 0 19% 0); }
   10% {
-    clip-path: inset(61% 0 15% 0); }
+    clip-path: inset(95% 0 4% 0); }
   15% {
-    clip-path: inset(83% 0 5% 0); }
+    clip-path: inset(88% 0 2% 0); }
   20% {
-    clip-path: inset(62% 0 2% 0); }
+    clip-path: inset(23% 0 16% 0); }
   25% {
-    clip-path: inset(8% 0 30% 0); }
+    clip-path: inset(83% 0 14% 0); }
   30% {
-    clip-path: inset(91% 0 2% 0); }
+    clip-path: inset(100% 0 1% 0); }
   35% {
-    clip-path: inset(9% 0 77% 0); }
+    clip-path: inset(29% 0 69% 0); }
   40% {
-    clip-path: inset(16% 0 59% 0); }
+    clip-path: inset(73% 0 14% 0); }
   45% {
-    clip-path: inset(72% 0 5% 0); }
+    clip-path: inset(9% 0 61% 0); }
   50% {
-    clip-path: inset(89% 0 12% 0); }
+    clip-path: inset(93% 0 3% 0); }
   55% {
-    clip-path: inset(94% 0 6% 0); }
+    clip-path: inset(8% 0 15% 0); }
   60% {
-    clip-path: inset(48% 0 30% 0); }
+    clip-path: inset(37% 0 62% 0); }
   65% {
-    clip-path: inset(17% 0 14% 0); }
+    clip-path: inset(24% 0 30% 0); }
   70% {
-    clip-path: inset(93% 0 7% 0); }
+    clip-path: inset(52% 0 37% 0); }
   75% {
-    clip-path: inset(40% 0 48% 0); }
+    clip-path: inset(10% 0 80% 0); }
   80% {
-    clip-path: inset(95% 0 6% 0); }
+    clip-path: inset(37% 0 30% 0); }
   85% {
-    clip-path: inset(86% 0 5% 0); }
+    clip-path: inset(73% 0 27% 0); }
   90% {
-    clip-path: inset(75% 0 24% 0); }
+    clip-path: inset(57% 0 37% 0); }
   95% {
-    clip-path: inset(89% 0 8% 0); }
+    clip-path: inset(26% 0 71% 0); }
   100% {
-    clip-path: inset(21% 0 72% 0); } }
+    clip-path: inset(50% 0 33% 0); } }
 
 * {
   margin: 0%;
@@ -213,6 +213,30 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-transform: uppercase; }
 
+.form {
+  width: 100%; }
+
+input[type='name'],
+input[type='email'],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  margin-bottom: 2.5rem;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem; }
+
+textarea {
+  height: 9.6rem; }
+
+::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #1a1a1a; }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 50rem);
@@ -224,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden; }
   .grid__items {
     position: relative; }
-    .grid__items .cta, .grid__items .cta--right {
+    .grid__items .cta, .grid__items .cta--right, .grid__items .cta--submit {
       position: absolute;
       top: 50%;
       right: -25%;
@@ -306,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav a:hover {
     color: #fff; }
 
-.cta, .cta--right {
+.cta, .cta--right, .cta--submit {
   padding: 1.8rem 3.6rem;
   background-color: rgba(255, 255, 255, 0.6);
   display: inline-flex;
@@ -316,6 +340,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-family: "Inconsolata", monospace;
   transition: all 0.3s ease-in-out; }
+  .cta--submit {
+    border: none;
+    outline: none;
+    cursor: pointer; }
 
 .about {
   padding: 10rem 0rem;
@@ -335,6 +363,37 @@ h1, h2, h3, h4, h5, h6 {
   .about .wrapper {
     flex-direction: column;
     align-items: flex-start; }
+
+.contact {
+  padding: 10rem 0rem;
+  position: relative; }
+  .contact::after {
+    content: 'contact';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20rem;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .5rem; }
+  .contact .wrapper {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column; }
+  .contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 5rem; }
+  .contact__item {
+    width: 100%; }
+  .contact--header {
+    font-size: 5.6rem;
+    line-height: 140%; }
 
 .hero {
   height: 100%;

@@ -12,4 +12,11 @@
     &--right {
         @extend .cta;
     }
+
+    &--submit {
+        @extend .cta;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 }

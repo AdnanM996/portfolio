@@ -1,0 +1,27 @@
+.form {
+    width: 100%;
+}
+
+input[type='name'],
+input[type='email'],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1.6rem;
+    background-color: rgba($color-white, .6);
+    outline: none;
+    margin-bottom: 2.5rem;
+    border: 0;
+    font-family: $sans-serif;
+    font-size: 1.6rem;
+}
+
+textarea {
+    height: 9.6rem;
+}
+
+::placeholder {
+    font-family: $sans-serif;
+    font-size: 1.4rem;
+    color: $color-black;
+}

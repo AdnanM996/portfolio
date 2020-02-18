@@ -1,0 +1,33 @@
+.contact {
+    padding: $padding-medium;
+    position: relative;
+
+    &::after {
+        content: 'contact';
+        @include sectionText;
+    }
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    &__item {
+        width: 100%;   
+    }
+
+    &--header {
+        font-size: 5.6rem;
+        line-height: 140%;
+    }
+
+}
