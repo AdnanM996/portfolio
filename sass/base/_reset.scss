@@ -61,3 +61,15 @@ body {
         animation: spin 1.5s infinite linear;
     }
 }
+
+.pointer {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px solid $color-blue;
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    transform-origin: 100% 100%;
+}
