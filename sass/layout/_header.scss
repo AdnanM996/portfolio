@@ -3,7 +3,6 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    z-index: 2;
     padding: $padding-small;
 
     & .wrapper {
@@ -15,6 +14,8 @@
 
     &__logo {
         display: inline-block;
+        position: relative;
+        z-index: 8;
     }
 
     &__menu {
@@ -22,6 +23,8 @@
         height: 3.5rem;
         width: 5rem;
         cursor: pointer;
+        position: relative;
+        z-index: 8;
 
         @media only screen and (max-width: $media-small) {
             display: inline-block;
