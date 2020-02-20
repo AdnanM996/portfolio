@@ -19,6 +19,8 @@ html, body {
 
 body {
     background-color: $color-black;
+    cursor: none;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -64,12 +66,19 @@ body {
 
 .pointer {
     display: block;
-    height: 5rem;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
-    border: 2px solid $color-blue;
+    border: 2px solid $color-green;
     pointer-events: none;
     position: absolute;
     z-index: 2;
+    transform: translate(-50%, -50%);
     transform-origin: 100% 100%;
+    transition: $transition;
+    transition-property: box-shadow;
+}
+
+.pointer__hover {
+    box-shadow: 1px 1px 10px 5px rgba($color-green, .3);
 }

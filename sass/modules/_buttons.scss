@@ -36,11 +36,43 @@
     &--right {
         @extend .cta;
     }
+}
 
-    &--submit {
-        @extend .cta;
-        border: none;
-        outline: none;
-        cursor: pointer;
+.btn {
+    padding: 1.8rem 3.6rem;
+    background-color: $color-white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-family: $font-monospace;
+    transition: $transition;
+    position: relative;
+    overflow: hidden;
+    color: $color-black;
+    border: none;
+    outline-width: none;
+    z-index: 1;
+    cursor: none;
+
+    &::after {
+        content: '';
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        background-color: $color-blue;
+        transform: translateY(100%);
+        z-index: -1;
+        transition: $transition;
+    }
+
+    &:hover::after {
+        transform: translateY(0%);
+    }
+
+    &:hover {
+        color: $color-white;
     }
 }

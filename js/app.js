@@ -17,6 +17,7 @@ menu.addEventListener('click', () => {
 //pointer
 
 const pointer = document.querySelector('.pointer');
+const links = document.querySelectorAll('a');
 
 window.addEventListener('mousemove', (e) => {
     xPosition = e.pageX + 'px';
@@ -25,3 +26,16 @@ window.addEventListener('mousemove', (e) => {
     pointer.style.left = xPosition;
     pointer.style.top = yPosition;
 });
+
+links.forEach(link => {
+    link.addEventListener('mouseover', ()=> {
+        pointer.classList.add('pointer__hover');
+    });
+});
+
+links.forEach(link => {
+    link.addEventListener('mouseleave', ()=> {
+        pointer.classList.remove('pointer__hover');
+    });
+});
+
