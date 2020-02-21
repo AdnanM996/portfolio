@@ -39,11 +39,13 @@
             width: 100%;
             background-color: $color-blue;
             transform: translateX(-105%);
-            transition: $transition;
+            transition: all .7s ease;
+            opacity: 0;
         }
 
         &:hover::after {
-            transform: translateX(0%);
+            transform: translateX(105%);
+            opacity: 1;
         }
 
         &:not(:last-child) {
