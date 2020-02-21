@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
 
 html {
     font-size: 62.5%;
@@ -22,6 +21,7 @@ a {
     text-decoration: none;
     color: $color-white;
     cursor: none;
+    font-family: $font-monospace;
 }
 
 h1 {font-size: 2em;}
@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
     &__logo {
         font-size: 3.6rem;
         font-family: $font-monospace;
-        font-weight: 400;
     }
 }
 
@@ -65,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
         margin-bottom: 2rem;
         position: relative;
-        width: 998px;
+        width: 1020px;
         user-select: none;
         text-transform: capitalize;
 
