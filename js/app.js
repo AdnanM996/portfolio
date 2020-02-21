@@ -39,3 +39,12 @@ links.forEach(link => {
     });
 });
 
+//Animations
+
+let line = document.querySelector('.skills__container');
+let skillsLine = getComputedStyle(line, ':after').width;
+
+skillsLine.style.width = '100' + 'px';
+
+console.log(skillsLine);
+
